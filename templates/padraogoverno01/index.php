@@ -28,6 +28,8 @@ $active_item = TmplPadraoGoverno01Helper::getActiveItemid();
     <![endif]-->
     <link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/bootstrap/css/bootstrap.min.css" type='text/css'/>
     <link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/template-<?php echo $this->params->get('cor', 'verde'); ?>.css" type='text/css'/>
+  <!-- CSS CUSTOMIZADO-->
+  <link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/custom_css.css" type='text/css'/>
     <?php TmplPadraoGoverno01Helper::getIconsStyle( $this ); ?>
     <link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/font-awesome/css/font-awesome.min.css" type='text/css'/>
     <!--[if lt IE 10]>
