@@ -1,0 +1,521 @@
+::selection {
+  background-color: #d0e3d9;
+  color: #006633;
+}
+
+header #logo h1 {
+  line-height: 1.8em !important;
+  padding-left: 176px;
+  background: url('http://localhost/sitecem/images/logo_CEM.png') no-repeat;
+  font-size: 2.1em !important;
+  margin-bottom: 0px !important;
+  position: absolute;
+  left: 348px;
+  top: 70px;
+  padding-bottom: 50px;
+  padding-left: 174px;
+}
+
+
+
+header #logo .portal-description {
+  padding-left:	30%; 
+  position: absolute;
+  top: 130px;
+  padding-left: 0px !important;
+  left: 523px;
+}
+
+header #logo .portal-title-1 {
+  display: none;
+}
+
+
+main #em-destaque h2 {
+background: #006633 !important;
+color: #ffcc00 !important;
+padding: 7px 0 7px 0;
+-webkit-border-radius: 5px 0 0 5px;
+-moz-border-radius: 5px 0 0 5px;
+-ms-border-radius: 5px 0 0 5px;
+-o-border-radius: 5px 0 0 5px;
+border-radius: 5px 0 0 5px;
+margin-right: 0;
+font-size: .7em;
+font-weight: normal;
+line-height: 1em;
+ 
+}
+
+/*
+main #em-destaque ul {
+  background: #ccffcc !important;
+}
+*/
+
+.SLRibbon {
+  background: #b94a48 !important;
+  position: fixed !important;
+  padding-bottom: 0px !important;
+  border: 0px !important;
+  z-index: 9999;
+}
+
+.SLNotificationBar {
+  border-bottom: 0px !important;
+  background-color: #b94a48 !important;
+  position: fixed !important;
+  z-index: 9999999 !important;
+}
+
+.SLarrow {
+  margin-left: 3px;
+}
+
+body > span.SLRibbon > p {
+  line-height: 6px;
+  
+}
+@media screen and (max-width: 740px) { 
+
+  .layout-slideshow {
+    display: none;
+  }
+}
+
+
+/* max-width */ 
+@media screen and (max-width: 600px) { 
+header #logo h1 {
+    background: url('http://localhost/sitecem/images/logo_CEMmenor.png') no-repeat !important;
+    padding-left: 101px !important;
+  }
+  
+header #logo .portal-title-1 {
+    padding-left: 37%;
+  }
+  
+  header #logo .portal-description {
+    padding-left: 101px !important;
+    top: -23px !important;
+    left: 106px !important;
+  }
+  
+  header #logo h1 {
+  line-height: 1.8em !important;
+  background: url('http://localhost/sitecem/images/logo_CEM.png') no-repeat;
+  font-size: 2.3em !important;
+  margin-bottom: 0px !important;
+  position: relative;
+  left: 0px !important;
+  top: 0px !important;
+  padding-bottom: 50px;
+}
+
+
+
+header #logo .portal-description {
+  padding-left:	30%; 
+  position: relative;
+  top: 130px;
+  padding-left: 0px !important;
+  left: 413px;
+}
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1180px) {
+  
+  header #logo h1 {
+  left: 18px !important;
+  font-size: 1.4em !important;
+  background: url('http://localhost/sitecem/images/logo_CEMmenor.png') no-repeat !important;
+  }
+  
+  header #logo .portal-description {
+    left: 193px !important;
+    top: 97px !important;
+  }
+  
+  
+}
+
+@media screen and (min-width: 1181px) and (max-width: 1480px) {
+  header #logo h1 {  
+  line-height: 1.8em !important;
+  left: 221px !important;
+  font-size: 1.8em !important;
+  }
+  
+  header #logo .portal-description {
+    top: 106px !important;
+    left: 395px !important;
+  }
+  
+}
+
+._4s7c {
+  width: 190px !important;
+}
+
+header #logo .portal-title-1 {
+  padding-left: 59% !important;
+  font-size: 1.5em !important;
+}
+
+ul.category.list-striped, ol.category.list-striped {
+      list-style: square outside none !important;
+  	
+  }
+
+/*
+
+#content.internas ul li {
+  list-style: none outside none !important;
+  width: 40%;
+  float: left;
+  margin-left: 10%;
+  height: 550px;
+  
+}
+
+
+main div.container .module .outstanding-header {
+  height: 80px;
+ 
+}
+*/
+
+.layout-slideshow .sprocket-features-content {
+  top: 25px !important;
+}
+
+.layout-slideshow .sprocket-features-pagination {
+  display: none !important;
+}
+
+.reduzido {
+  padding-bottom: 0px !important;
+}
+
+.layout-slideshow .sprocket-features-title, .layout-slideshow .sprocket-features-desc {
+  background: rgba(25,81,40,0.7) !important;
+}
+
+main div.container .module h2, main div.container .module h3 {
+  color: #ff0;
+}
+
+.layout-slideshow .sprocket-features-pagination li, .layout-slideshow .sprocket-features-arrows .arrow {
+  background: #006633 !important;
+}
+
+#content-section > div:nth-child(4) > div > ul > li.sprocket-features-index-1 > div.sprocket-features-content > div, #content-section > div:nth-child(4) > div > ul > li.sprocket-features-index-2 > div.sprocket-features-content > div, #content-section > div:nth-child(4) > div > ul > li.sprocket-features-index-2 > div.sprocket-features-content > div, #content-section > div:nth-child(4) > div > ul > li.sprocket-features-index-3 > div.sprocket-features-content > div  {
+  background: rgba(25,81,40,0.7) !important;
+}
+
+#display {
+  border: 1px solid #000;
+  width: 100%;
+  height: 200px;
+ 
+}
+
+#infraestrutura {
+  display: none;
+}
+
+#content.internas ul li {
+  list-style: none !important;
+}
+
+div#maximenuck264 ul.maximenuck {
+  border: 0px !important;
+  background: #00510f !important;
+background: -moz-linear-gradient(top, #17882c 0%, #00510f 100%) ;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#17882c), color-stop(100%,#00510f)) ;
+background: -webkit-linear-gradient(top, #17882c 0%,#00510f 100%) ;
+background: -o-linear-gradient(top, #17882c 0%,#00510f 100%) ;
+background: -ms-linear-gradient(top, #17882c 0%,#00510f 100%);
+}
+
+div#maximenuck264 ul.maximenuck li.maximenuck.level1:hover, div#maximenuck264 ul.maximenuck li.maximenuck.level1.active {
+background: rgba(255,255,255,0) !important;
+color: #ffffff !important;
+  border: 0px !important;
+}
+
+div#maximenuck264 div.floatck {
+border: 0px !important;
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#17882c), to(#00510f));
+background: #00510f !important;
+background: -moz-linear-gradient(top, #17882c 0%, #00510f 100%);
+background: -webkit-linear-gradient(top, #17882c 0%,#00510f 100%);
+}
+
+div#maximenuck264 ul.maximenuck li.maximenuck ul.maximenuck2 li a, div#maximenuck264 ul.maximenuck2 li a {
+  color: #FFF !important;
+  text-shadow: 0px !important;
+  }
+
+/*
+div#maximenuck264 ul.maximenuck li.maximenuck ul.maximenuck2 li a, div#maximenuck264 ul.maximenuck2 li a:hover {
+  color: #000 !important;
+}
+
+*/
+
+div#maximenuck264 ul.maximenuck li.maximenuck.level1 > a, div#maximenuck264 ul.maximenuck li.maximenuck.level1 > span.separator {
+  text-shadow: 0px !important;
+}
+
+#maximenuck264 > div.maxiroundedcenter > ul > li.maximenuck.item307.parent.level1.maximenuckanimation > div > div.maxidrop-main > div > div.maximenuck2.first > ul > li.maximenuck.item308.first.level2 > a:hover, #maximenuck264 > div.maxiroundedcenter > ul > li.maximenuck.item307.parent.level1.maximenuckanimation > div > div.maxidrop-main > div > div.maximenuck2.first > ul > li.maximenuck.item310.level2 > a:hover, #maximenuck264 > div.maxiroundedcenter > ul > li.maximenuck.item307.parent.level1.maximenuckanimation > div > div.maxidrop-main > div > div.maximenuck2.first > ul > li.maximenuck.item311.level2 > a:hover, #maximenuck264 > div.maxiroundedcenter > ul > li.maximenuck.item307.parent.level1.maximenuckanimation > div > div.maxidrop-main > div > div.maximenuck2.first > ul > li.maximenuck.item318.last.level2 > a:hover  {
+  color: #000 !important;
+}
+
+#navigation-section > nav:nth-child(2) {
+  margin-bottom: 0px !important;
+  border-bottom: 0px !important;
+}
+
+
+
+#maximenuck264 > div.maxiroundedcenter > ul > li.maximenuck.item307.parent.level1.maximenuckanimation > div > div.maxidrop-main > div > div.maximenuck2.first > ul > li.maximenuck.item308.first.level2 > a > span, #maximenuck264 > div.maxiroundedcenter > ul > li.maximenuck.item307.parent.level1.maximenuckanimation > div > div.maxidrop-main > div > div.maximenuck2.first > ul > li.maximenuck.item310.level2 > a > span, #maximenuck264 > div.maxiroundedcenter > ul > li.maximenuck.item307.parent.level1.maximenuckanimation > div > div.maxidrop-main > div > div.maximenuck2.first > ul > li.maximenuck.item311.level2 > a > span, #maximenuck264 > div.maxiroundedcenter > ul > li.maximenuck.item307.parent.level1.maximenuckanimation > div > div.maxidrop-main > div > div.maximenuck2.first > ul > li.maximenuck.item318.last.level2 > a > span {
+
+
+text-shadow: 1px 1px 1px #000 !important;
+}
+
+#maximenuck264 > div.maxiroundedcenter > ul > li.maximenuck.item307.parent.level1.maximenuckanimation > div > div.maxidrop-main > div > div.maximenuck2.first > ul > li.maximenuck.item308.first.level2 > a > span:hover, #maximenuck264 > div.maxiroundedcenter > ul > li.maximenuck.item307.parent.level1.maximenuckanimation > div > div.maxidrop-main > div > div.maximenuck2.first > ul > li.maximenuck.item310.level2 > a > span:hover, #maximenuck264 > div.maxiroundedcenter > ul > li.maximenuck.item307.parent.level1.maximenuckanimation > div > div.maxidrop-main > div > div.maximenuck2.first > ul > li.maximenuck.item311.level2 > a > span:hover, #maximenuck264 > div.maxiroundedcenter > ul > li.maximenuck.item307.parent.level1.maximenuckanimation > div > div.maxidrop-main > div > div.maximenuck2.first > ul > li.maximenuck.item318.last.level2 > a > span:hover {
+
+
+text-shadow: 1px 1px 1px #fff !important;
+}
+
+div#maximenuck264 div.floatck {
+  background: -moz-linear-gradient(center top , #17882c, #00510f) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: #00510f !important;
+}
+
+div#maximenuck264 ul.maximenuck {
+  border-radius: 0px !important;
+}
+
+div#maximenuck264 ul.maximenuck li.maximenuck.level1 > a, div#maximenuck264 ul.maximenuck li.maximenuck.level1 > span.separator {
+  font-size: 12.5px !important;
+}
+
+.preto {
+  color: black !important;
+}
+
+.gestaonegocios {
+  background-color: #8C66D9;
+}
+
+.desenvolvimento {
+  background-color: #A7B828;
+}
+
+img.responsiva {
+max-width : 100% !important;
+    height : auto;
+}
+
+.justificado {
+  text-align: justify;
+  word-spacing: -1px;
+}
+
+div.sprocket-features-desc > a {
+  color: #ff0 !important;
+  text-decoration: none !important;
+}
+
+div.sprocket-features-desc > a:hover {
+  color: #ff0 !important;
+  text-decoration: underline !important;
+}
+
+div.sprocket-features ul.sprocket-features-img-list li.sprocket-features-index-2 div.sprocket-features-content h2.sprocket-features-title, div.sprocket-features ul.sprocket-features-img-list li.sprocket-features-index-1 div.sprocket-features-content h2.sprocket-features-title, div.sprocket-features ul.sprocket-features-img-list li.sprocket-features-index-3 div.sprocket-features-content h2.sprocket-features-title, div.sprocket-features ul.sprocket-features-img-list li.sprocket-features-index-4 div.sprocket-features-content h2.sprocket-features-title, div.sprocket-features ul.sprocket-features-img-list li.sprocket-features-index-5 div.sprocket-features-content h2.sprocket-features-title {
+  color: #ff0 !important;
+}
+
+#content.internas h3 {
+  font-size: 1.2em !important;
+}
+
+#content-section > div:nth-child(4) > div > div.manchete-principal > div:nth-child(1) {
+  display: none !important;
+}
+
+#content-section > div:nth-child(6) > div > div.manchete-principal > div:nth-child(1) > div {
+  display: none !important;
+}
+
+#content.internas h5 {
+  font-size: 1.2em !important;
+}
+
+#content.internas div.direct-image .image-alt {
+  display: none;
+}
+
+#quemsomos {
+  color: #333 !important;
+  font-size: 1.8em !important;
+  font-weight: 700;
+}
+h1.quemsomos {
+  color: #333 !important;
+  font-size: 2.7em !important;
+  font-weight: 700 !important;
+}
+
+#content-section > div:nth-child(3) > div > div.module.span6.variacao-module-04 > div.chamadas-secundarias, #content-section > div:nth-child(3) > div > div.module.span6.variacao-module-00 > div.chamadas-secundarias {
+  margin-left: 17%;
+}
+
+#content-section > div:nth-child(3) > div:nth-child(1) > div > div.manchete-principal > div:nth-child(2) > div > a > img {
+  width: 230px;
+  margin-left: 30%;
+  
+}
+
+#content-section > div:nth-child(3) > div:nth-child(1) > div > div.manchete-principal > div:nth-child(1) > div {
+  display: none;
+}
+
+div.module.span4:hover {
+  transform: scale(1.03);
+}
+
+div.menu-de-apoio.span4.module.span6 {
+  transform: scale(1);
+}
+
+#navigation-section > nav:nth-child(2) > ul > li > a:link, #navigation-section > nav:nth-child(2) > ul > li > a:hover, #navigation-section > nav:nth-child(2) > ul > li > a:visited, #navigation-section > nav:nth-child(2) > ul > li > a:focus {
+  color: #006633;
+}
+
+#navigation-section > nav:nth-child(2) > ul > li {
+  background: #d0e3d9;
+}
+
+#content-section > div > div > div.module.span6.variacao-module-00 > div.chamadas-secundarias, #content-section > div > div > div.module.span6.variacao-module-03 > div.chamadas-secundarias  {
+  margin-left: 17%;
+  
+  
+}
+
+#content-section > div > div > div.module.span6.variacao-module-00:hover, #content-section > div > div > div.module.span6.variacao-module-03:hover, #content-section > div:nth-child(3) > div > div.module.span6.variacao-module-04:hover  {
+  transform: scale(1.02);
+  
+}
+
+
+body > div.layout.undefined > main > div > div.mod-preview > div.mod-preview-info, body > div.layout.undefined > header > div.container > div:nth-child(2) > div.span4 > div.mod-preview > div.mod-preview-info {
+  
+  display: none !important;
+}
+
+
+
+div.avisos {
+  position: fixed;
+  top: 0px;
+  right: 40px;
+  background-color: #b94a48;
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  z-index: 99999999;
+  cursor: pointer;
+  height: 50px;
+  box-shadow: 1px 1px 1px #000;
+  padding: 2px;
+  border-radius: 0px 0px 7px 7px;
+  display: none;
+  
+}
+
+div.recado {
+  position: fixed;
+  top: 0px;
+  background-color: #b94a48;
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  width: 100%;
+  z-index: 9999999;
+  text-align: center;
+  display: none;
+  
+}
+
+div.avisos > p {
+  margin-top: 30px;
+  
+}
+
+
+
+.recado > p > a, .recado > p > a:focus, .recado > p > a:link, .recado > p > a:visited, .recado > p > a:hover {
+  
+  background-color: #ccc;
+  border-radius: 5px;
+  border: 1px #000;
+  color: #000;
+  font-size: 16px;
+  padding: 2px;
+  margin-bottom: 2px;
+  
+}
+
+.recado > p > a:hover {
+  background-color: #ddd !important;
+}
+
+div.recado > p > span {
+  margin-left: 10px;
+  font-size: 26px;
+  
+}
+
+.seta {
+  cursor: pointer;
+}
+
+div.recado > p {
+  margin-top: 10px;
+}
+
+
+.mod-preview-info {
+  display: none;
+}
+
+#content-section > div:nth-child(2) > div.mod-preview-wrapper > div > div > div > div.mod-preview-wrapper, #content-section > div:nth-child(3) > div.mod-preview-wrapper > div > div > div > div.mod-preview-wrapper {
+  display: none;
+}
+
+li.item-236, li.item-333 {
+  margin-bottom: 5px;
+}
+
+
+div.accordion-inner.panel-body table {
+
+border-top: 0px solid #fff !important;
+border-left: 0px solid #fff !important;
+
+
+}
+
+div.accordion-inner.panel-body table td, div.accordion-inner.panel-body table th  {
+
+border-right: 0px solid #fff !important;
+
+
+}
+
