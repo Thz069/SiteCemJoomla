@@ -1,16 +1,41 @@
 /**
- * @version		2.6.x
- * @package		K2
- * @author		JoomlaWorks http://www.joomlaworks.net
- * @copyright	Copyright (c) 2006 - 2014 JoomlaWorks Ltd. All rights reserved.
- * @license		GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
+ * @version    2.8.x
+ * @package    K2
+ * @author     JoomlaWorks http://www.joomlaworks.net
+ * @copyright  Copyright (c) 2006 - 2017 JoomlaWorks Ltd. All rights reserved.
+ * @license    GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
  */
 
 var $K2 = jQuery.noConflict();
 
 $K2(document).ready(function(){
 
-  // Generic function to get URL params passed in .js script include
+	// Magnific popup
+	if(typeof($K2.magnificPopup) !== 'undefined') {
+		// --- Backwards compatibility for users with overrides - START ---
+		// First remove possible attached events of the core modal in case it is loaded by a third party extension
+		$K2('.itemImage a.modal, .itemEditLink a.modal, .catItemEditLink a.modal, .catItemAddLink a.modal, .userItemAddLink a.modal, .userItemEditLink a.modal, .k2UserBlockActions a.modal, .k2UserBlockRenderedMenu a.modal, .commentToolbar a.modal').unbind('click');
+
+		// Item image
+		$K2('.itemImage a.modal').magnificPopup({type:'image', image: {titleSrc: function() {return '';}}});
+
+		// Edit links
+		$K2('.itemEditLink a.modal, .catItemEditLink a.modal, .catItemAddLink a.modal, .userItemAddLink a.modal, .userItemEditLink a.modal').magnificPopup({type:'iframe', modal: true});
+
+		// Any other link
+		$K2('.k2UserBlockActions a.modal, .k2UserBlockRenderedMenu a.modal, .commentToolbar a.modal').magnificPopup({type:'iframe'});
+		// --- Backwards compatibility for users with overrides - FINISH ---
+
+		// New layouts
+		// Images
+		$K2('[data-k2-modal="image"]').magnificPopup({type:'image', image: {titleSrc: function() {return '';}}});
+		// Edit links
+		$K2('[data-k2-modal="edit"]').magnificPopup({type:'iframe', modal: true});
+		// Generic iframe
+		$K2('[data-k2-modal="iframe"]').magnificPopup({type:'iframe'});
+	}
+
+	// Generic function to get URL params passed in .js script include
 	function getUrlParams(targetScript, varName) {
 		var scripts = document.getElementsByTagName('script');
 		var scriptCount = scripts.length;
@@ -28,7 +53,7 @@ $K2(document).ready(function(){
 	}
 
 	// Set the site root path
-	var K2SitePath = getUrlParams('k2.js', 'sitepath');
+	var K2SitePath = getUrlParams('k2.frontend.js', 'sitepath');
 
 	// Comments
 	$K2('#comment-form').submit(function(event){
@@ -40,7 +65,7 @@ $K2(document).ready(function(){
 			dataType: 'json',
 			data: $K2('#comment-form').serialize(),
 			success: function(response){
-				$K2('#formLog').removeClass('formLogLoading').html(response.message);
+				$K2('#formLog').removeClass('formLogLoading').html(response.message).addClass(response.cssClass);
 				if(typeof(Recaptcha) != "undefined"){
 					Recaptcha.reload();
 				}
@@ -104,13 +129,13 @@ $K2(document).ready(function(){
 
 	$K2('#k2ReportCommentForm').submit(function(event){
 		event.preventDefault();
-		$K2('#formLog').empty().addClass('formLogLoading');
+		$K2('#k2ReportCommentFormLog').empty().addClass('formLogLoading');
 		$K2.ajax({
 			url: $K2('#k2ReportCommentForm').attr('action'),
 			type: 'post',
 			data: $K2('#k2ReportCommentForm').serialize(),
 			success: function(response){
-				$K2('#formLog').removeClass('formLogLoading').html(response);
+				$K2('#formLog').removeClass('formLogLoading').html(response).css('display','block');
 				if(typeof(Recaptcha) != "undefined"){
 					Recaptcha.reload();
 				}
