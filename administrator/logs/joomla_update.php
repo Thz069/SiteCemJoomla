@@ -88,3 +88,11 @@
 2017-08-21T16:32:57+00:00	INFO ::1	update	Deleting removed files and folders.
 2017-08-21T16:33:00+00:00	INFO ::1	update	Cleaning up after installation.
 2017-08-21T16:33:00+00:00	INFO ::1	update	Update to version 3.7.5 is complete.
+2017-09-01T16:59:39+00:00	INFO ::1	update	Update started by user Super User (8). Old version is 3.7.5.
+2017-09-01T16:59:42+00:00	INFO ::1	update	Downloading update file from http://s3-us-west-2.amazonaws.com/joomla-official-downloads/joomladownloads/joomla3/Joomla_3.7.5-Stable-Update_Package.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIZ6S3Q3YQHG57ZRA%2F20170901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20170901T170002Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=507c4a934b9bbbaaf9848f3c6f8c654d6f8b7ce05d2f3343b7f145b2b19fe290.
+2017-09-01T16:59:58+00:00	INFO ::1	update	File Joomla_3.7.5-Stable-Update_Package.zip downloaded.
+2017-09-01T16:59:58+00:00	INFO ::1	update	Starting installation of new version.
+2017-09-01T17:00:26+00:00	INFO ::1	update	Finalising installation.
+2017-09-01T17:00:26+00:00	INFO ::1	update	Deleting removed files and folders.
+2017-09-01T17:00:34+00:00	INFO ::1	update	Cleaning up after installation.
+2017-09-01T17:00:34+00:00	INFO ::1	update	Update to version 3.7.5 is complete.
